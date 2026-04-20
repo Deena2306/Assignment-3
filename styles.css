@@ -1,0 +1,43 @@
+body {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background: white;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px;
+}
+.top {
+  background: purple;
+  height: 80px;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -40px;
+  border: 4px white;
+}
+h2 {
+  margin: 10px 0 20px;
+}
+p {
+  color: black;
+  font-size: 15px;
+}
+button {
+  background: lavender;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: plum;
+  margin: 10px 0 20px;
+  cursor: pointer;
+}
